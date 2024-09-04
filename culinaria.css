@@ -1,0 +1,213 @@
+h1 {
+    background-color: rgb(2, 81, 16);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 6vw;
+    text-align: center;
+    padding: 5px;
+}
+h2 {
+    color: rgb(161, 3, 3) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+    text-align: center;
+    margin-top: -3.5%;
+}
+h3 {
+    color:  rgb(2, 81, 16);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    text-align: left;
+    margin-right: 79%;
+    margin-left: 3%;
+}
+h4 {
+    text-align: center;
+}
+h5 {
+    color: white;
+    background-color: rgb(161, 3, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    text-align: center;
+}
+.img {
+    float: left;
+    width: 12vw;
+    height: 12vw;
+    margin-top: -2%;
+    margin-left: 5%;
+}
+.p {
+    background-color: rgb(161, 3, 3);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.07vw;
+    margin-top: -19%;
+    margin-left: 25%;
+    margin-right: 3%; 
+    border: 2px solid rgb(161, 3, 3) ;
+}
+.Faixada {
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.1%;
+    padding: 10px;
+    width: 14vw;
+    height: 14vw;
+    display: inline-block;
+}
+.Cartela {
+    background-color: rgb(2, 81, 16);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    margin-right: 79%;
+    margin-left: 3%;
+    display: inline-block;
+    margin-top: 3.5%;
+    text-align: center;
+    border: solid 5px  rgb(2, 81, 16);
+}
+.Promo {
+    background-color: rgb(2, 81, 16);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    margin-right: 3%;
+    margin-left: 79%;
+    margin-top: -12%;
+    text-align: center;
+    border: solid 5px  rgb(2, 81, 16);
+}
+a {
+    color: white;
+}
+.pp {
+    color: rgb(2, 81, 16);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4vw;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: -12.2%;
+    float: left;
+    text-align: center;
+}
+.Funcionamento {
+    color: white;
+    background-color: rgb(161, 3, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    margin-left: 8%;
+    margin-top: 3.5%;
+    border: solid 3px rgb(161, 3, 3);
+    display: inline-block;
+    
+}
+.Facilidades {
+    color: white;
+    background-color: rgb(161, 3, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1vw;
+    margin-left: 10%;
+    border: solid 5px rgb(161, 3, 3);
+    display: inline-block;
+}
+.Contato {
+    text-align: center;
+    color: white;
+    font-size: 1.2vw;
+    background-color: rgb(2, 81, 16);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+}
+.marg {
+    margin-top: -0.5%;
+}
+body {
+    background-color: white;
+}
+@media screen and (max-width: 480px) {
+        body {
+            background-color:  whitesmoke
+        }
+        h3 {
+            font-size: 2.2vw;
+        }
+        h5 {
+            font-size: 2vw;
+        }
+        .p {
+            font-size: 2.07vw;
+            margin-top: -68%;
+        }
+        .Faixada {
+            width: 16vw;
+            height: 16vw;
+        }
+        .Cartela {
+            font-size: 2vw;
+            margin-top: 7.5%;
+        }
+        .Promo {
+            font-size: 2vw;
+            margin-top: -24%;
+        }
+        .pp {
+            font-size: 2vw; 
+            margin-top: -31.2%; 
+            margin-left: 25%;
+        }
+        .Funcionamento {
+            font-size: 2.2vw;
+            margin-bottom: 2%;
+        }
+        .Facilidades {
+            font-size: 2.1vw;
+        }
+        .Contato {
+            font-size: 2.2vw;
+        }
+    }
+    @media screen and (min-width: 481px) and (max-width: 768px) {
+        body {
+            background-color: rgb(214, 199, 199);
+        }
+        h3 {
+            font-size: 2.2vw;
+        }
+        h5 {
+            font-size: 2vw;
+        }
+        .p {
+            font-size: 2.07vw;
+            margin-top: -68%;
+        }
+        .Faixada {
+            width: 16vw;
+            height: 16vw;
+        }
+        .Cartela {
+            font-size: 2vw;
+            margin-top: 7.5%;
+        }
+        .Promo {
+            font-size: 2vw;
+            margin-top: -24%;
+        }
+        .pp {
+            font-size: 2vw; 
+            margin-top: -31.2%; 
+            margin-left: 25%;
+        }
+        .Funcionamento {
+            font-size: 2.2vw;
+            margin-bottom: 2%;
+        }
+        .Facilidades {
+            font-size: 2.1vw;
+        }
+        .Contato {
+            font-size: 2.2vw;
+        }
+}
